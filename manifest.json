@@ -11,12 +11,12 @@
 
     "icons": [
         {
-            "src": "imagens/livro_2.png",
+            "src": "imagens/livro.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "imagens/livro_2.png",
+            "src": "imagens/livro.png",
             "sizes": "512x512",
             "type": "image/png"
         }
