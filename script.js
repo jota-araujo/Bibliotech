@@ -37,7 +37,11 @@ function login(event) {
     const emailCorreto = "admin@example.com";
     const senhaCorreta = "Bibliotech@26";
 
-    if (usuario === usuarioCorreto && email === emailCorreto && senha === senhaCorreta) {
+    if (
+        usuario === usuarioCorreto &&
+        email === emailCorreto &&
+        senha === senhaCorreta
+    ) {
         mensagem.style.color = "green";
         mensagem.innerHTML = "Login realizado com sucesso!";
 
@@ -45,6 +49,7 @@ function login(event) {
             sessionStorage.setItem("logado", "true");
             window.location.href = "page2.html";
         }, 1000);
+
     } else {
         mensagem.style.color = "red";
         mensagem.innerHTML = "Usuário ou senha incorretos.";
