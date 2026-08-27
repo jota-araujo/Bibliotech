@@ -42,6 +42,7 @@ function login(event) {
         mensagem.innerHTML = "Login realizado com sucesso!";
 
         setTimeout(() => {
+            sessionStorage.SetItem("logado", "true");
             window.location.href = "page2.html";
         }, 1000);
     } else {
