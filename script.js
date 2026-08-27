@@ -35,7 +35,7 @@ function login(event) {
     // Login
     const usuarioCorreto = "admin admin";
     const emailCorreto = "admin@example.com";
-    const senhaCorreta = "Jv12@3456";
+    const senhaCorreta = "Bibliotech@26";
 
     if (usuario === usuarioCorreto && email === emailCorreto && senha === senhaCorreta) {
         mensagem.style.color = "green";
